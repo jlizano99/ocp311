@@ -1,0 +1,27 @@
+MontajeNFS: /mnt/data
+HostnameNFS: 192.168.122.25
+DiscoNFS: /dev/sdb
+
+MasterHostname: master
+MasterFQDN:  master.openshift.gbm.net
+MasterIP: 192.168.122.20
+
+InfraHostname: infra
+InfraFQDN: infra.openshift.gbm.net
+INfraIP: 192.168.122.21
+
+Worker1Hostname: worker1
+Worker1FQDN:  worker1.openshift.gbm.net
+Worker1IP: 192.168.122.22
+
+Worker2Hostname: worker2
+Worker2FQDN:  worker2.openshift.gbm.net
+Worker2IP: 192.168.122.23
+
+Worker3Hostname: worker3
+Worker3FQDN: worker3.openshift.gbm.net
+Worker3IP: 192.168.122.24
+
+PasswordServers: Password01
+
+DNSServer: 192.168.124.19
